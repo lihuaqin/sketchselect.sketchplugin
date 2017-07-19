@@ -81,7 +81,6 @@ var onSelectionChanged = function(context) {
 
     document = action.document;
     selection = action.newSelection;
-	var text = document.documentData().layerTextStyles().objects();
 
     // ### Performing Our Code
     // Now for the meat of the plugin. What we want it to do is to show a small message at the bottom
@@ -102,10 +101,10 @@ var onSelectionChanged = function(context) {
 
         if (count == 1) {
             // For a single item, we don't want an "s" on the end.
-            message = text
+            message = "22222"
         } else {
             // For multiple items we want to show the count, and use an "s" for a plural.
-            message = text
+            message = "222222"
         }
 
         // Finally, show the actual message to the user.
