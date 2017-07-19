@@ -117,5 +117,5 @@ var onSelectionChanged = function(context) {
 
         document.showMessage(message);
     }
-
+       document.showMessage("结束！");
 };
